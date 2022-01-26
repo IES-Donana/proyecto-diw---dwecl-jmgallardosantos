@@ -17,6 +17,7 @@ header {
     height: 800px;
     background-image:url(img/fondo1.jpg);
     background-size: 100%;
+    opacity: 0.4;
 }
 
 .fondo2 {
@@ -602,8 +603,11 @@ nav a:hover {
   }
 
   .video_header {
-      position: fixed;
       z-index: -1;
+      width: 100vw;
+      margin-top: 150px;
+      position: absolute;
+      
   }
 
 
