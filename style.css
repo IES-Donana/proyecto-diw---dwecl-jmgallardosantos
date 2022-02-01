@@ -17,7 +17,6 @@ header {
     height: 800px;
     background-image:url(img/fondo1.jpg);
     background-size: 100%;
-    opacity: 0.4;
 }
 
 .fondo2 {
@@ -78,6 +77,7 @@ header {
 /* DIFERENTES CONTENEDORES COMUNES A TODAS LAS PAGINAS */ 
 
 .text{
+    
     display:flex;
     color: #015c74;
     font-weight: bold;
@@ -86,6 +86,7 @@ header {
     margin: 0 auto;
     padding: 200px;
     align-items: center;
+
 }
 
 .nombre {
@@ -130,7 +131,19 @@ header {
 .img_logo {
     display: flex;
     height: 150px;
+    animation-name: transparencia;
+    animation-duration: 5s;
+    margin-left: 1rem;
 }
+
+@keyframes transparencia {
+    0% {opacity: 0.1;}
+    50% {opacity: 0.7;}
+    100% {opacity: 1 ;}
+
+}
+
+
 
 
 .navegacion {
@@ -147,6 +160,7 @@ nav a {
     text-decoration: none;
     color:#015c74;
 }
+
 
 .redi {
     height: 40px;
@@ -165,7 +179,17 @@ nav a {
 
 nav a:hover {
     color: #e18b81;
+    transform: scale(1.15);
 }
+
+.img_logo {
+    transform: scale(1.50);
+}
+
+.pie a:hover {
+    transform: scale(1.15);
+}
+
 
 /* FONDOS BLANCOS QUE SUPERPONE AL FONDO */
 
@@ -442,6 +466,12 @@ nav a:hover {
     height: 250px;
 }
 
+@keyframes transparencia {
+    0% {opacity: 0.1;}
+    50% {opacity: 0.7;}
+    100% {opacity: 1 ;}
+
+}
 #proyectos {
     color: inherit;
     color:#e18b81;
@@ -494,6 +524,41 @@ nav a:hover {
 .tamaño_imagen2 {
     width: 200px;
     height: 200px;
+}
+
+#imagentestimonio1:hover{
+    animation-name: transparencia1;
+    animation-duration: 2s;
+   
+}
+
+#imagentestimonio2:hover{
+    animation-name: transparencia1;
+    animation-duration: 2s;
+}
+
+#imagentestimonio3:hover{
+    animation-name: transparencia1;
+    animation-duration: 2s;
+}
+
+#imagentestimonio4:hover{
+    animation-name: transparencia1;
+    animation-duration: 2s;
+}
+
+#imagentestimonio5:hover{
+    animation-name: transparencia1;
+    animation-duration: 2s;
+}
+
+
+@keyframes transparencia1 {
+    0% {opacity: 0.1;}
+    50% {opacity: 0.7;}
+    100% {opacity: 1 ;}
+
+
 }
 
 .tamaño_videos {
