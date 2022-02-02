@@ -422,7 +422,45 @@ nav a:hover {
 
 .parrafo_form {
     padding-left: 80px;}
-    
+
+.bloques {
+    display: flex;
+}
+
+.formulario_interactivo {
+    flex-direction:column;
+}
+.logoanimado {
+    display: flex;
+    padding-left:15em;
+    padding-top: 3em;
+}
+
+summary {
+    cursor: pointer;
+    color:#e18b81;
+}
+
+summary::marker {
+    color: #e18b81;
+
+}
+
+details h3 {
+    color: #e18b81;
+}
+
+button {
+    background-color: #e18b81;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 30%;
+}dialog {
+    color: #015c74;
+}
+
+
 
 /*CONFIGURACION PAGINA INICIO */
 
