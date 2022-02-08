@@ -178,7 +178,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #e18b81;
+    color: #D04435;
     transform: scale(1.15);
 }
 
@@ -476,7 +476,7 @@ button {
 
 #inicio {
     color: inherit;
-    color:#e18b81;
+    color:#D04435;
 }
 
 /* CONFIGURACION PAGINA PROYECTOS */
