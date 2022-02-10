@@ -8,6 +8,10 @@ header {
     height: auto;
 }
 
+h1 {
+    text-transform: uppercase;
+}
+
 /* IMAGEN DE FONDO DE LAS PAGINAS (FONDO1)*/ 
 
 .fondo1 {
@@ -25,7 +29,7 @@ header {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 800px;
+    height: 900px;
     background-image:url(img/fondo1.jpg);
     background-size: 100%;
 }
@@ -36,7 +40,7 @@ header {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 800px;
+    height: 900px;
     background-image:url(img/fondo1.jpg);
     background-size: 100%;
 }
@@ -200,7 +204,7 @@ nav a:hover {
     justify-content: space-around;
     background-color: white;
     border-radius: 30px;
-    height: 700px;
+    height: 800px;
     width: 1200px;
 }  
 
@@ -222,7 +226,7 @@ nav a:hover {
     background-color: white;
     border-radius: 30px;
     padding-top: 30px;
-    height: 700px;
+    height: 800px;
     width: 1200px;
 }
 
@@ -277,6 +281,13 @@ nav a:hover {
     display: flex;
     border: #e18b81 1px solid;
     width: 1000px;
+}
+
+.linea_testimonio {
+    display: flex;
+    border: #e18b81 1px solid;
+    width: 1000px;
+    height: 0;
 }
 
 .parrafosobremi {
