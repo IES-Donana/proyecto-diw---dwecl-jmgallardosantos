@@ -174,7 +174,7 @@ nav a {
 
 #contacto {
     color: inherit;
-    color:#e18b81;
+    color:#D04435;
 }
 
 nav a:hover {
@@ -322,7 +322,7 @@ nav a:hover {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-start;
-    color: #e18b81;
+    color: #D04435;
 }
 
 .linea_formulario {
@@ -335,7 +335,7 @@ nav a:hover {
 
 .legend {
     display: flex;
-    color: #e18b81;
+    color: #D04435;
     font-size:x-large ;
     padding-top: 30px ;
     padding-left: 30px;
@@ -438,7 +438,7 @@ nav a:hover {
 
 summary {
     cursor: pointer;
-    color:#e18b81;
+    color:#D04435;
 }
 
 summary::marker {
