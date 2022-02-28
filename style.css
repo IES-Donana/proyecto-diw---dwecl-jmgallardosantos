@@ -131,6 +131,111 @@ h1 {
     justify-content:center;
 }
 
+.logotipos-w3c{
+    display: flex;
+    position:absolute;
+    left: 1000px;
+    top: 960px;
+}
+
+.logotipos-w3c-proyectos{
+    display: flex;
+    position:absolute;
+    left: 1000px;
+    top: 1005px;
+}
+
+.logotipos-w3c-testimonios{
+    display: flex;
+    position:absolute;
+    left: 1000px;
+    top: 1010px;
+}
+
+.logotipos-w3c-cv{
+    display: flex;
+    position:absolute;
+    left: 1000px;
+    top: 1180px;
+}
+
+.logotipos-w3c-sobremi{
+    display: flex;
+    position:absolute;
+    left: 1000px;
+    top: 955px;
+}
+
+.logotipos-w3c-formulario{
+    display: flex;
+    position:absolute;
+    left: 1000px;
+    top: 955px;
+}
+
+.version-sitio-web{
+    display: flex;
+    color: #015c74;
+    position: absolute;
+    top: 1050px;
+    left: 800px;
+}    
+
+.version-sitio-web-proyectos{
+    display: flex;
+    color: #015c74;
+    position: absolute;
+    top: 1140px;
+    left: 800px;
+}
+
+.version-sitio-web-testimonios{
+    display: flex;
+    color: #015c74;
+    position: absolute;
+    top: 1140px;
+    left: 800px;
+}
+
+.version-sitio-web-cv{
+    display: flex;
+    color: #015c74;
+    position: absolute;
+    top: 1280px;
+    left: 800px;
+}
+
+.version-sitio-web-sobremi{
+    display: flex;
+    color: #015c74;
+    position: absolute;
+    top: 1050px;
+    left: 800px;
+}
+
+.version-sitio-web-formulario{
+    display: flex;
+    color: #015c74;
+    position: absolute;
+    top: 1050px;
+    left: 800px;
+}
+.migas-de-pan{
+    position: absolute;
+    left: 5px;
+    margin-top: 130px;
+}
+
+.migas{
+    display: inline;
+color:#D04435;
+list-style: none;
+}
+
+.clases-migas {
+    color: #D04435;
+    text-decoration: none;
+}
 
 .img_logo {
     display: flex;
@@ -165,6 +270,14 @@ nav a {
     color:#015c74;
 }
 
+.busqueda {
+display:flex;
+align-items: flex-start;
+position: relative;
+left:920px;
+top: 10px;
+height: 50px;
+}
 
 .redi {
     height: 40px;
@@ -321,7 +434,7 @@ nav a:hover {
     
 }
 
-#sobremi {
+.sobremi {
     color: inherit;
     color:#D04435;
 }
