@@ -557,6 +557,13 @@ nav a:hover {
 
 }
 
+.social_cv {
+    display: flex;
+    width: 500px;
+    height: 40px;
+    justify-content: space-around;
+    margin-block-start: auto;
+}
 
 .nombre_label {
     padding-right: 35px;
@@ -885,6 +892,73 @@ button {
 /* MEDIA QUERY */
 
 @media screen and (max-width: 400px){
+    .logotipos-w3c-sobremi {
+        left: 55px;
+        top: 1610px;
+        }
+    }
+
+@media screen and (max-width: 400px){
+    .version-sitio-web-sobremi {
+        position: relative;
+        left: 18px;
+        top: 380px;
+        }
+    }
+
+@media screen and (max-width: 400px){
+    .social_cv {
+        width: 400px;
+        }
+    }
+
+@media screen and (max-width: 400px){
+    .logotipos-w3c-cv {
+        left: 55px;
+        top: 2140px;
+        }
+    }
+
+@media screen and (max-width: 400px){
+    .version-sitio-web-cv {
+        position: relative;
+        left: 18px;
+        top: 87px;
+        width: 300px;
+                }
+            }
+
+@media screen and (max-width: 400px){
+    .logotipos-w3c-testimonios {
+        left: 55px;
+        top: 3000px;
+        }
+    }
+
+@media screen and (max-width: 400px){
+    .version-sitio-web-testimonios {
+        position: relative;
+        left: 18px;
+        top: 1650px;
+            }
+        }
+
+@media screen and (max-width: 400px){
+    .version-sitio-web-proyectos {
+            position: relative;
+           left: 18px;
+           top: 115px;
+        }
+    }
+
+@media screen and (max-width: 400px){
+    .logotipos-w3c-proyectos {
+          left: 50px;
+          top: 2550px;
+        }
+    }
+
+@media screen and (max-width: 400px){
     .navegacion {
         align-items: center;
         flex-direction: column;
@@ -1009,12 +1083,12 @@ button {
 
 @media  screen and (max-width: 400px) {
     .social_testimonios {
-        margin-top: 1880px;}
+        margin-top: 1600px;}
 }
 
 @media  screen and (max-width: 400px) {
     .social_sobremi {
-        margin-top: 530px;}
+        margin-top: 310px;}
 }
 
 @media  screen and (max-width: 400px) {
