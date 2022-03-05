@@ -603,7 +603,7 @@ nav a:hover {
 }
 .logoanimado {
     display: flex;
-    padding-left:15em;
+    padding-left:19em;
     padding-top: 3em;
 }
 
@@ -644,6 +644,15 @@ button {
     
 }
 
+.social-formu {
+    display: flex;
+    width: 500px;
+    height: 40px;
+    justify-content: space-around;
+    margin-block-start: auto;
+    
+}
+
 #inicio {
     color: inherit;
     color:#D04435;
@@ -662,7 +671,7 @@ button {
     height: 40px;
     justify-content: space-around;
     margin-block-start: auto;
-    margin-top: 30px;
+    margin-top: 250px;
         
 }
 
@@ -674,7 +683,22 @@ button {
     height: 250px;
 }
 
-.tamaño_imagen {
+.tamaño_imagen11 {
+    width: 250px;
+    height: 250px;
+}
+
+.tamaño_imagen22 {
+    width: 250px;
+    height: 250px;
+}
+
+.tamaño_imagen33 {
+    width: 250px;
+    height: 250px;
+}
+
+.tamaño_imagen44 {
     width: 250px;
     height: 250px;
 }
@@ -728,6 +752,14 @@ button {
     color: #015c74;
     width: 200px;
     height: 200px;
+}
+
+.fondo-proy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 1200px;
+    padding-top: 
 }
 
 .testimonio {
@@ -947,14 +979,14 @@ button {
     .version-sitio-web-proyectos {
             position: relative;
            left: 18px;
-           top: 115px;
+           top: 310px;
         }
     }
 
 @media screen and (max-width: 400px){
     .logotipos-w3c-proyectos {
-          left: 50px;
-          top: 2550px;
+          left: 35px;
+          top: 2750px;
         }
     }
 
@@ -1049,6 +1081,14 @@ button {
 }
 
 @media  screen and (max-width: 400px) {
+    .fondo-proy {
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 250px;}
+}
+
+@media  screen and (max-width: 400px) {
     .sobremi {
         display: flex;
         flex-direction:row;}
@@ -1062,7 +1102,8 @@ button {
 
 @media  screen and (max-width: 400px) {
     .linea_formulario {
-        width: 500px;}
+        width: 500px;
+        padding-left: 300px;}
 }
 
 @media  screen and (max-width: 400px) {
@@ -1111,29 +1152,34 @@ button {
 
 @media  screen and (max-width: 400px) {
     .legend {
-        justify-content: center;}
+        justify-content: center;
+        padding-left: 300px ;}
 }
 
 @media  screen and (max-width: 400px) {
     .nombre_form, .apellidos_form, .correo_form {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;}
+        justify-content: center;
+        padding-left: 300px;}
 }
 
 @media  screen and (max-width: 400px) {
     .textarea {
-        margin-left: 69px;}
+        margin-left: 5px;
+        width: 250px;}
 }
 
 @media  screen and (max-width: 400px) {
     .enviar {
-        margin-left: 100px;}
+        margin-left: 270px;}
 }
 
 @media  screen and (max-width: 400px) {
     .parrafo_form {
-        padding-left: 80px;}
+        padding-left: 80px;
+        width: 300px;
+        margin-left: 210px;}
 }
 
 @media  screen and (max-width: 400px) {
@@ -1178,3 +1224,69 @@ button {
         justify-content: center;}
     }
 
+    @media  screen and (max-Width: 400px) {
+        .tamaño_imagen11 {
+        margin-top: 20px ; 
+        margin-bottom: 10px  ;}   
+        }  
+    @media  screen and (max-Width: 400px) {
+        .tamaño_imagen22 {
+        margin-top: 20px ; }   
+        }
+    @media  screen and (max-Width: 400px) {
+        .tamaño_imagen33 {
+        margin-bottom: 20px  ;}   
+        }
+    @media  screen and (max-Width: 400px) {
+        .tamaño_imagen44 {
+        margin-top: 20px; 
+        margin-bottom: 20px ;}   
+        }
+
+    @media  screen and (max-Width: 400px) {
+        .linea_testimonio {
+            width: 500px;}   
+        }
+
+    @media  screen and (max-Width: 400px) {
+        .linea_testimonio {
+            width: 500px;}   
+            }
+
+   
+    @media  screen and (max-Width: 400px) {
+        .logotipos-w3c-formulario {
+            left: 55px;
+            top: 1410px;}
+
+        }
+    @media  screen and (max-Width: 400px) {
+        .version-sitio-web-formulario {
+            position: relative;
+            left: 10px;
+            top: 135px;}
+            }
+
+    @media  screen and (max-Width: 400px) {
+        .input {
+            width: 260px;
+        }
+            }
+
+    @media  screen and (max-Width: 400px) {
+        .textarea_form {
+            margin-left: 300px;
+            margin-top: 15px;}
+                    }
+
+    @media  screen and (max-Width: 400px) {
+        .social-formu {
+            margin-top: 110px;}
+                    }
+
+    @media  screen and (max-Width: 400px) {
+        summary {
+            position: absolute;
+            left: 8px;
+            top: 480px;}
+                    }
